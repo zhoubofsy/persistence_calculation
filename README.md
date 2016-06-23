@@ -1,14 +1,3 @@
----
-title: Ceph 持久性计算
-date: 2016-06-23 14:23:33
-tags:
-- ceph
-- persistence
-categories:
-- ceph
----
-
-
 # 持久性
 持久性是数据丢失的概率，可以用于度量一个存储系统的可靠性，俗称 “多少个9”。数据的放置(DataPlacement)决定了数据持久性，而Ceph的CRUSH MAP又决定了数据的放置，因此CRUSH MAP的设置决定了数据持久性。
 
